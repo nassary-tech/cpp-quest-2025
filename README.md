@@ -8,5 +8,6 @@ I'll be building a series of exciting projects to strengthen my C++ knowledge. E
 
 ### Current Projects:
 - **Hello World**: Kicking off with the classic "Hello, World!" program to lay the foundation.
+- **Console Calculator**: Keeping on with a simple console-based calculator that can do arithmetic operations as well as quadratic equations.
 
 🔗 Visit the repos for each project to dive deeper into the code and progress!
