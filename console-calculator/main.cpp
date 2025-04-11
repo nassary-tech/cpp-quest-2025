@@ -36,15 +36,15 @@ int main()
         //Checking the type of the operation
         if(o == '+')
         {
-            cout << x << " + " << y << " = " << x + y;
+            cout << x << " + " << y << " = " << x + y << endl;
             cout << "==============================" << endl;
         }
         else if(o == '-'){
-            cout << x << " - " << y << " = " << x - y;
+            cout << x << " - " << y << " = " << x - y << endl;
             cout << "==============================" << endl;
         }
         else if(o == '*'){
-            cout << x << " × " << y << " = " << x * y;
+            cout << x << " × " << y << " = " << x * y << endl;
             cout << "==============================" << endl;
         }
         else if(o == '/')
@@ -56,7 +56,7 @@ int main()
             }
             else
             {
-            cout << x << " ÷ " << y << " = " << x / y;
+            cout << x << " ÷ " << y << " = " << x / y << endl;
             cout << "==============================" << endl;
             }
         }
