@@ -1,6 +1,6 @@
 # 🧮 C++ Calculator App
 
-This is a basic calculator app written in C++ as part of my `cpp-quest-2025` journey.  
+This is a basic calculator app written in C++ as part of my journey.  
 It performs simple arithmetic operations along with quadratic formulas.
 
 ## 🚀 Features
