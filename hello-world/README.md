@@ -1,2 +1,8 @@
-"Hello, World" in C++
-This marks the beginning of my C++ journey for 2025. Over the next year, I'll work on C++ projects to sharpen my skills before moving on to Python in 2026. Let’s move on with it!
+👋 Hello, World in C++
+This is the starting point of my cpp-quest-2025.
+A simple "Hello, World!" to kick off my journey into C++ development.
+
+🚀 Highlights
+-Basic C++ syntax
+-Simple and clean structure
+-The first milestone in a year-long coding adventure!
