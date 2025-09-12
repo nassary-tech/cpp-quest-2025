@@ -33,7 +33,7 @@ namespace Task_Class
         int get_priority();
         int get_id();
 
-        Task():title(title_in), content(content_in), status(status_in), priority(priority_in), id(ID){};
+        Task():title(), content(), status(), priority(), id(){};
     };
 }
 
