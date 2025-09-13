@@ -6,7 +6,7 @@ It allows users to manage tasks directly from the console with a clean and begin
 
 ## 🚀 Features
 
-* Add new tasks with title, content, status, and priority
+* Add new tasks with a title, content, status, and priority
 * Delete tasks from the list
 * View all tasks in a structured format
 * Console-based UI with simple navigation
