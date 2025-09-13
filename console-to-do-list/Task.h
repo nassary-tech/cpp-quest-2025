@@ -21,8 +21,6 @@ namespace Task_Class
         int id{};
 
     public:
-        Task(string title_default = "UnTitled", string content_default = "No Content", int status_default = 0, int priority_default = 2, int id_default = 0);
-
         void set_title(std::string title_in);
         void set_content(std::string content_in);
         void set_status(int status_in);
@@ -34,6 +32,8 @@ namespace Task_Class
         int get_status();
         int get_priority();
         int get_id();
+
+        Task():title(title_in), content(content_in), status(status_in), priority(priority_in), id(ID){};
     };
 }
 
