@@ -49,31 +49,41 @@ int main()
         show_menu();
         cin >> choice;
 
-        switch (choice)
+        if (cin.fail())
         {
-            case 1:
-                add_task(task_list, ID);
+            cin.clear();
+            cin.ignore();
 
-                break;
-            case 2:
-                edit_task(task_list, ID);
+            cout << "=================================" << "\n";
+            cout << "Invalid Input!" << "\n";
+        }
+        else {
+            switch (choice)
+            {
+                case 1:
+                    add_task(task_list, ID);
 
-                break;
-            case 3:
-                delete_task(task_list, ID);
+                    break;
+                case 2:
+                    edit_task(task_list, ID);
 
-                break;
-            case 4:
-                view_tasks(task_list);
+                    break;
+                case 3:
+                    delete_task(task_list, ID);
 
-                break;
-            case 5:
-                end_program(3);
+                    break;
+                case 4:
+                    view_tasks(task_list);
 
-                break;
-            default:
-                cout << "=================================" << "\n";
-                cout << "Invalid choice!" << "\n";
+                    break;
+                case 5:
+                    end_program(3);
+
+                    break;
+                default:
+                    cout << "=================================" << "\n";
+                    cout << "Invalid choice!" << "\n";
+            }
         }
     }
 
