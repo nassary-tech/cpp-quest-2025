@@ -34,6 +34,7 @@ namespace Task_Class
         int get_id();
 
         Task():title(), content(), status(), priority(), id(){};
+        ~Task(){};
     };
 }
 
